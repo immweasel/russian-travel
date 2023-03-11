@@ -1,0 +1,13 @@
+.place__url-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 456px;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-wrapper {
+    min-width: 288px;
+    margin-left: 16px;
+  }
+}

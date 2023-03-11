@@ -14,22 +14,22 @@
 @media screen and (max-width: 1279px){
   .place {
     max-width: 928px;
-    column-gap: calc(32px + (40 - 32) * ((100vw - 1024px) / (1280 - 1024)));
-    grid-template-columns: calc(440px + (460 - 440) * ((100vw - 1024px) / (1280 - 1024))) calc(456px + (484 - 456) * ((100vw - 1024px) / (1280 - 1024))); 
+    column-gap: 32px;
+    grid-template-columns: 440px 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     max-width: 720px;
-    column-gap: calc(28px + (32 - 28) * ((100vw - 768px) / (1024 - 768)));
-    grid-template-columns: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768))) calc(352px + (456 - 352) * ((100vw - 768px) / (1024 - 768))); 
+    column-gap: 28px;
+    grid-template-columns: 340px 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    max-width: 320px;
+    max-width: 100%;
     row-gap: 32px;
     column-gap: 0;
     grid-template-columns: 1fr;
