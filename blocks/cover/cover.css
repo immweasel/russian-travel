@@ -2,10 +2,11 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	width: 1184px;
+	max-width: 1184px;
 	margin-left: auto;
 	margin-right: auto;
 	align-items: center;
+	justify-content: center;
 	min-height: 740px;
 	margin-top: 92px;
 	min-width: 320px;
@@ -28,7 +29,6 @@
 
 .cover:hover::before {
 	background: rgba(42, 44, 47, .8);
-	z-index: 2;
 }
 
 @media screen and (max-width: 1279px) {
