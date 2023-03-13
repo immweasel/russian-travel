@@ -1,61 +1,62 @@
 .cover {
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	max-width: 1184px;
-	margin-left: auto;
-	margin-right: auto;
-	align-items: center;
-	justify-content: center;
-	min-height: 740px;
-	margin-top: 92px;
-	min-width: 320px;
-	background: transparent url('../../images/cover-trains.jpg') no-repeat center / cover;
-	box-sizing: border-box;
-	text-decoration: none;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 1184px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 740px;
+  margin-top: 92px;
+  min-width: 320px;
+  background: transparent url("../../images/cover-trains.jpg") no-repeat center / cover;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .cover::before {
-	display: block;
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(42, 44, 47, .3);
-	z-index: 2;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 44, 47, 0.3);
+  z-index: 2;
 }
 
 .cover:hover::before {
-	background: rgba(42, 44, 47, .8);
+  background: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1279px) {
-	.cover {
-		min-height: 640px;
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-	}
+  .cover {
+    min-height: 640px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-	.cover {
-		min-height: 480px;
-	}
+  .cover {
+    min-height: 480px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-	.cover {
-	  min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (767 - 320)));
-	 	margin-top: calc(66px + (90 - 66) * ((100vw - 320px) / (767 - 320)));
-	}
+  .cover {
+    min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (767 - 320)));
+    margin-top: calc(66px + (90 - 66) * ((100vw - 320px) / (767 - 320)));
+  }
 }
 
 @media screen and (max-width: 320px) {
-	.cover {
-		margin-top: 66px;
-		min-height: 200px;
-	}
+  .cover {
+    margin-top: 66px;
+    min-height: 200px;
+  }
 }

@@ -1,15 +1,15 @@
 .place__url {
-	margin: 0;
-	padding: 0;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 22px;
-	text-decoration: underline;
-	transition: opacity 0.5s ease-in-out;
-	color: white;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: opacity 0.5s ease-in-out;
+  color: white;
 }
 
 .place__url:hover {
-	opacity: 0.3;
+  opacity: 0.3;
   cursor: pointer;
 }

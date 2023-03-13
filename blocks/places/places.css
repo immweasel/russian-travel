@@ -1,10 +1,10 @@
 .places {
-	display: grid;
-	grid-template-columns: 1fr;
-	row-gap: 80px;
-	margin-top: 88px;
-	margin-left: auto;
-	margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+  margin-top: 88px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 984px;
 }
 
@@ -26,5 +26,5 @@
     max-width: 100%;
     margin-top: 64px;
     row-gap: 50px;
-  } 
+  }
 }

@@ -18,7 +18,7 @@
     margin-top: calc(16px + (32 - 16) * ((100vw - 320px) / (767 - 320)));
     margin-right: 16px;
     margin-left: 16px;
-  } 
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -26,7 +26,5 @@
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
-    margin-right: 16px;
-    margin-left: 16px;
   }
 }
